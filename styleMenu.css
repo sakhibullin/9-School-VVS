@@ -1,156 +1,64 @@
-#transition_disabled
-{
--webkit-transition: none;
--moz-transition: none ;
--ms-transition: none ;
--o-transition: none;
-}
 body{
-padding: 0px 0px;
-margin: 0px 0px;
-max-height: 100vh;
-background: black;
-}
-h1{
-position: absolute;
-padding-left: 9vw;
-padding-top:20vh;
-font-size: 2vw;
-color: white;
-transition: all 0.7s;
-}
-p{
-position: absolute;
-padding-left: 9.5vw;
-padding-top:20vh;
-font-size: 2vw;
-color: white;
-transition: all 1s;
-}
-a{
-text-decoration: none;
-position: absolute;
-padding-left: 7vw;
-padding-top:35vh;
-font-size: 2vw;
-color: white;
-opacity: 0;
-transition:all 1s;
-}
-.portfolio{
 margin: 0 0;
-
-float:left;
-
-
+padding: 0 0;
 }
-.portfolio ul,.portfolio li{
-margin: -4px -2px;
-padding: 0px 0vw;
-max-width: 100vw;
-max-height: 100%;
-list-style-type: none;
 
-}
-.portfolio li{
-padding-left: 0;
-padding-right: 0;
-position: relative;
-display: inline-block;
-height: 50vh;
-width: 24.89vw;
-
-}
-.portfolio img{
-height: 100%;
-width: 25vw;
-font-size: 2.5vw;
-}
-.descr{
+#logo{
+left: 10vh ;
+top: 6vh ;
+background: #E4E4E4;
 position: absolute;
+height: 15vh;
+width:15vh;
+}
+
+#sh{
+position: absolute;
+width: 100%;
+padding: 0;
+margin: 0;
+background: #FFF;
+}
+
+
+#btn_vop{
+position: absolute;
+background:#94D1CE;
+font-size:4vh;
+height: 12vh;
+width: 10vw;
 top: 0;
-left: 0;
-width: 25vw;
-height: 100%;
-background:rgb(3, 33, 57);
-opacity: 0.6;
-color: #FFF;
-font-size: 2vw;
-text-align: center;
-
-transition:all 1s;
+margin-left: 80vw;
+padding:0.5vh 2vw;
 }
-.f-kart{
+
+#pod{
 
 position: absolute;
-opacity: 1;
-max-height: 100%;
-width: 27vw;
-float: left;
-margin: 0px 73vw;
+width: 55vw;
+height: 0.6vh;
+left: 19vw;
+top: 16vh;
+
+background: #D19494;
+border-radius: 25px;
 }
-.f-kart .descr{
-width: 100%;
-height: 100%;
-}
-
-.f-kart img{
-width: 100%;
-height: 100vh;
-}
-
-.op{
-padding: 0 7vw;
-opacity: 0;
-transition:all 1s;
-
-}
-
-
-.bg{
+#men{
 position: absolute;
-width: 100%;
-height: 100%;
+width: 94.9vw;
 left: 0px;
-z-index: 1;
-top: 0px;
-background: #0A67A3;
-animation-name: op_bg;
-animation-fill-mode: forwards;
-animation-duration: 2s;
+top: 27vh;
+padding :6vh;
+background: #E4E4E4;
 }
 
-@keyframes op_bg{
-0%{
-opacity: 0%;
-}
-100%{
-opacity: 1;
-}
-}
-.portfolio li:hover .descr{
-opacity: 0.9;
 
-}
-.portfolio li:hover .op{
-opacity: 1;
-}
-.portfolio li:hover .btn{
-opacity: 1;
-}
-.portfolio li:hover h1{
-opacity: 0;
-}
 
-.f-kart:hover h1{
-opacity: 0;
-}
-.f-kart:hover a{
-opacity: 1;
-}
-.f-kart:hover .op{
-opacity: 1;
-}
-.f-kart:hover .descr{
-opacity: 0.9;
+.btn_men{
+
+margin: 0;
+padding-left: 11vw;
+text-decoration: none;
+font-size: 3vh;
+color: #000;
 }
