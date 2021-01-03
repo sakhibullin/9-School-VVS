@@ -1,63 +1,80 @@
 body{
-margin: 0 0;
-padding: 0 0;
+	margin: 0 0;
+	padding: 0 0;
 }
 
 #logo{
-left: 10vh ;
-top: 6vh ;
-background: #E4E4E4;
-position: absolute;
-height: 15vh;
-width:15vh;
+	left:  75px ;
+	top: 45px ;
+	background: #E4E4E4;
+	position: absolute;
+	height: 112px;
+	width:112px;
 }
 
 #sh{
-position: absolute;
-width: 100%;
-padding: 0;
-margin: 0;
-background: #FFF;
+	position: absolute;
+	width: 1483px;
+	padding: 0px;
+	margin: 0px;
+	background: #FFF;
 }
 
 
 #btn_vop{
-position: absolute;
-background:#94D1CE;
-font-size:4vh;
-height: 12vh;
-width: 10vw;
-top: 0;
-margin-left: 80vw;
-padding:0.5vh 2vw;
+	position: absolute;
+	background:#94D1CE;
+	font-size:30px;
+	height: 90px;
+	width: 147.5px;
+	top: 0;
+	margin-left: 1196px;
+	padding:4px 30px;
 }
 
 #pod{
 
-position: absolute;
-width: 55vw;
-height: 0.6vh;
-left: 19vw;
-top: 16vh;
+	position: absolute;
+	width: 	820px;
+	height: 4.5px;
+	left: 	284px;
+	top:	120px;
 
-background: #D19494;
-border-radius: 25px;
+	background: #D19494;
+	border-radius: 25px;
 }
 #men{
-position: absolute;
-width: 94.9vw;
-left: 0px;
-top: 27vh;
-padding :6vh;
-background: #E4E4E4;
+	position: absolute;
+	width: 1393px;
+	left: 0px;
+	top: 202px;
+	padding :45px;
+	background: #E4E4E4;	
+}
+#ban{
+	position: absolute;
+	width: 1483px;
+	height: 156px;
+	left: 0px;
+	top: 317px;
+
+background: #C4C4C4
 }
 
+#sl{
+	position: absolute;
+	width: 1500px;
+	height:  280px;
+	left: 0px;
+	top: 500px;
+
+background: #C4C4C4;
+}
 .btn_men{
 
-margin: 0;
-padding-left: 11vw;
-text-decoration: none;
-font-size: 3vh;
-color: #000;
-top:47vh;
+	margin: 0;
+	padding-left: 164px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #000;
 }
