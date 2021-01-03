@@ -135,7 +135,7 @@ header #btn{
 #polos1{
 		width: 520px;
 		left: 1000px;
-		top: 1025px;
+		top: 1050px;
 }
 #img1{
 		top: 1000px;
@@ -145,6 +145,7 @@ header #btn{
 		position:absolute;
 		top: 975px;
 		left:1050px;
+		font-size: 33px;
 }
 #txt1{
 	position: absolute;
@@ -160,7 +161,37 @@ header #btn{
 }
 
 
+ /*второй раздел*/
+#polos2{
+		width: 522px;
+		left: 0px;
+		top: 1700px;
+}
+#img2{
+		top: 1650px;
+		right: 0px;
+}
+#istor{
+		left:30px; 
+		position:absolute;
+		font-size: 33px;;
+		top:1625px;
+}
+#txt2{
+	position: absolute;
+	width: 425px;
+	height: 420px;
+	left:30px;
+	top: 1725px;
+	font-size:20px;
+}
+#btn_prod2{
+	top: 2100px;
+	left:30px;
+}
+
+
+
 /*ну шо подвал*/
 .kon{
 }
-
