@@ -1,122 +1,166 @@
-body{
-	margin: 0 0;
-	padding: 0 0;
-}
 .container{
-	width: 1170px;
-
-}
-#logo{
-	left:  75px ;
-	top: 45px ;
-	background: #E4E4E4;
-	position: absolute;
-	height: 112px;
-	width:112px;
-}
-
-#sh{
-	position: absolute;
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-	background: #FFF;
-}
-
-
-#btn_vop{
-	position: absolute;
-	background:#94D1CE;
-	font-size:30px;
-	height: 90px;
-	width: 140px;
-	top: 0;
-	margin-left: 1196px;
-	padding:4px 30px;
-}
-
-#pod{
-
-	position: absolute;
-	width: 	820px;
-	height: 4.5px;
-	left: 	284px;
-	top:	120px;
-
-	background: #D19494;
-	border-radius: 25px;
-}
-#men{
-	position: absolute;
-	width: 1335px;
-	left: 0px;
-	top: 202px;
-	padding :45px;
-	background: #E4E4E4;	
-}
-#ban{
-	position: absolute;
-	width: 1425px;
-	height: 156px;
-	left: 0px;
-	top: 317px;
-
-background: #C4C4C4
-}
-
-#sl{
-	position: absolute;
-	width: 1425px;
-	height:  280px;
-	left: 0px;
-	top: 480px;
-
-background: #C4C4C4;
-}
-.btn_men{
-
-	margin: 0;
-	padding-left: 164px;
-	text-decoration: none;
-	font-size: 22px;
-	color: #000;
-}
-
-@media screen and (max-width: 1200px){
-	.container{
 		width: 1170px;
-	}
-
+		margin: 0;
 }
-@media screen and (max-width: 1199px){
-	.container{
-		width: 960px;
-	}
-	#sl{
-		width: 1009px;}
+ul,li{
+		display: block;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+		position: absolute;
+		width: 1521.5px;
+		height: 110px;
+		left: 0px;
+		top: 210px;
 
-	#ban{
-		width: 1009px;
-	}
-
-	#men{
-		width: 919px;
-		padding-left: 50px;
-
-	}
-	.btn_men{
-
-	margin: 0;
-	padding-left: 100px;
-	font-size: 20px;
-	color: #000;
+		background: #E4E4E4;
+}
+/* весь хедер тут  */
+.header a{
+	color: #161616;	
 }
 
+#logo{
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		left: 60px;
+		top: 45px;
+}
+#pod{
+		position: absolute;
+		width: 800px;
+		height: 5px;
+		left: 250px;
+		top: 120px;
+		background: #D19494;
+		border-radius: 25px;
 
 }
-@media screen and (max-width: 991px){
-	.container{
-		width: 900px;
+
+header #btn{
+		position: absolute;
+		background:#94D1CE;
+		font-size:20px;
+		height: 60px;
+		width: 120px;
+		top: 0;
+		margin-left: 1196px;
+		padding:20px 40px;
+}
+.sl {
+		position: absolute;
+		top:170px;
+		left:500px;
+		display: flex;
+}
+.sl li a{
+	
+		font-size: 18px;
+		text-decoration: none;
+}
+
+.sl li{
+
+		display: flex;
+		top:50px;
+		margin-left:100px;
+}
+.sp{
+		padding-right: 6px;
+		height: 18px;
+		width: 18px;
+}
+.menu{
+		display: flex;
+}
+.menu li a{
+		font-size: 20px;
+		text-decoration: none;
+}
+
+.menu li{
+		margin-top: 27px;
+		margin-left:200px;
+}
+
+
+/* конец хедера  */
+
+
+/* начало контента  */
+.banner{
+		position: absolute;
+		top:317px;
+		left:0px;
+		height:200px;
+		width:1521.5px; 
+		background: #C4C4C4;
+}
+
+.slayd{
+	position: absolute;
+		top:525px;
+		left:0px;
+		height:375px;
+		width:1521.5px; 
+		background: #C4C4C4;
+}
+.about img{
+		position: absolute;
+		width: 1000px;
+		height: 550px;
+	}	
+.polos{
+		z-index: 1;
+		position: absolute;
+		height: 6px;
+		width: 600px;
+		background: #C4C4C4;
 	}
+.btn_prod{
+		color:#161616;
+		padding: 25px 140px;
+		font-size:25px;
+		position: absolute;
+		padding-left: center;
+		height: 30px;
+		width: 160px;
+		background: #94D1CE;
+		box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+ /*первый раздел*/
+#polos1{
+		width: 520px;
+		left: 1000px;
+		top: 1025px;
+}
+#img1{
+		top: 1000px;
+		left: 0px;
+}
+#mus_exp{
+		position:absolute;
+		top: 975px;
+		left:1050px;
+}
+#txt1{
+	position: absolute;
+	width: 425px;
+	height: 420px;
+	left:1050px;
+	top: 1075px;
+	font-size:20px;
+}
+#btn_prod1{
+	top: 1450px;
+	left:1050px;
+}
+
+
+/*ну шо подвал*/
+.kon{
 }
 
