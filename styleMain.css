@@ -2,7 +2,10 @@ body{
 	margin: 0 0;
 	padding: 0 0;
 }
+.container{
+	width: 1170px;
 
+}
 #logo{
 	left:  75px ;
 	top: 45px ;
@@ -14,7 +17,7 @@ body{
 
 #sh{
 	position: absolute;
-	width: 1483px;
+	width: 100%;
 	padding: 0px;
 	margin: 0px;
 	background: #FFF;
@@ -26,7 +29,7 @@ body{
 	background:#94D1CE;
 	font-size:30px;
 	height: 90px;
-	width: 147.5px;
+	width: 140px;
 	top: 0;
 	margin-left: 1196px;
 	padding:4px 30px;
@@ -45,7 +48,7 @@ body{
 }
 #men{
 	position: absolute;
-	width: 1366px;
+	width: 1335px;
 	left: 0px;
 	top: 202px;
 	padding :45px;
@@ -53,7 +56,7 @@ body{
 }
 #ban{
 	position: absolute;
-	width: 1366px;
+	width: 1425px;
 	height: 156px;
 	left: 0px;
 	top: 317px;
@@ -63,10 +66,10 @@ background: #C4C4C4
 
 #sl{
 	position: absolute;
-	width: 1500px;
+	width: 1425px;
 	height:  280px;
 	left: 0px;
-	top: 500px;
+	top: 480px;
 
 background: #C4C4C4;
 }
@@ -77,5 +80,43 @@ background: #C4C4C4;
 	text-decoration: none;
 	font-size: 22px;
 	color: #000;
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 1170px;
+	}
+
+}
+@media screen and (max-width: 1199px){
+	.container{
+		width: 960px;
+	}
+	#sl{
+		width: 1009px;}
+
+	#ban{
+		width: 1009px;
+	}
+
+	#men{
+		width: 919px;
+		padding-left: 50px;
+
+	}
+	.btn_men{
+
+	margin: 0;
+	padding-left: 100px;
+	font-size: 20px;
+	color: #000;
+}
+
+
+}
+@media screen and (max-width: 991px){
+	.container{
+		width: 900px;
+	}
 }
 
