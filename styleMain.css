@@ -45,7 +45,7 @@ body{
 }
 #men{
 	position: absolute;
-	width: 1393px;
+	width: 1366px;
 	left: 0px;
 	top: 202px;
 	padding :45px;
@@ -53,7 +53,7 @@ body{
 }
 #ban{
 	position: absolute;
-	width: 1483px;
+	width: 1366px;
 	height: 156px;
 	left: 0px;
 	top: 317px;
@@ -78,3 +78,4 @@ background: #C4C4C4;
 	font-size: 22px;
 	color: #000;
 }
+
