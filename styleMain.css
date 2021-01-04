@@ -1,120 +1,271 @@
-<!DOCTYPE html>
-	<html lang="ru" >
-		<head>
-			<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=1170, initial-scale=1">
-		<title>Название страницы - отображается на вкладке браузера и в поиске</title>
-		 <link rel="stylesheet" type="text/css" href="styleMain.css"> 
-	</head>
+body{
+	font-family: 'Poppins', sans-serif;
+	min-width: 1170;
+}
+.container{
+		width: 1170px;
+		margin: 0;
+}
+ul,li{
+		display: block;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+		position: absolute;
+		width: 1521.5px;
+		height: 110px;
+		left: 0px;
+		top: 210px;
 
-	<body>
-		<header id="header" class="header">
-			<div class="container">
-				<div>
-					<img src="" id="logo">
-					<div id="pod"></div>
-					<a id="btn" href="#">Вопросы? Напишите</a>
-				</div>
+		background: #E4E4E4;
+}
+/* весь хедер тут  */
+.header a{
+	color: #161616;	
+}
 
-				<div>
-					<ul class="sl">
-						<li><img src="" class="sp"><a href="#">lyceum_kfu</a></li>
-						<li><img src="" class="sp"><a href="#">vk.com/lobachevskylyceum</a></li>
-						<li><img src="" class="sp"><a href="#">liceum.kpfu.ru</a></li>
-					</ul>
-				</div>
+#logo{
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		left: 60px;
+		top: 45px;
+}
+#pod{
+		position: absolute;
+		width: 800px;
+		height: 5px;
+		left: 250px;
+		top: 120px;
+		background: #D19494;
+		border-radius: 25px;
 
-				<div class="nav">
-					<ul class="menu">
-						<li> <a href="#">Музейная экспозиция</a> </li>
-						<li> <a href="#">История</a> </li>
-						<li> <a href="#">Выпускники</a> </li>
-						<li> <a href="#">Галлерея</a> </li>
-					</ul>
-				</div>
+}
 
+header #btn{
+		position: absolute;
+		background:#94D1CE;
+		font-size:20px;
+		height: 60px;
+		width: 120px;
+		top: 0;
+		margin-left: 1196px;
+		padding:20px 40px;
+}
+.sl {
+		position: absolute;
+		top:170px;
+		left:500px;
+		display: flex;
+}
+.sl li a{
+	
+		font-size: 18px;
+		text-decoration: none;
+}
 
-			</div>
-		</header>
+.sl li{
 
+		display: flex;
+		top:50px;
+		margin-left:100px;
+}
+.sp{
+		padding-right: 6px;
+		height: 18px;
+		width: 18px;
+}
+.menu{
+		display: flex;
+}
+.menu li a{
+		font-size: 20px;
+		text-decoration: none;
 
-		</section>
-		<section id="about" class="about">
-			<div class="container">
-				<div>
-					<div class="banner"></div>
-					<div class="slayd"> </div>
-				</div>
-			
-
-				 <!-- первый раздел -->
-
-				<div > 
-
-					<div  id="polos1" class="polos"></div>
-		
-						<div id="txt1">    
-					  	    Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Повседневная практика показывает, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
-    						Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач.
-						</div>
-						<h1 id="mus_exp" style="color: #161616"> Музейны экспозиции </h1>
-					
-						<img id="img1" src="">
-						<a href="#"><div class="btn_prod" id="btn_prod1">Продолжить</div></a>
-				
-				</div>
-
-					 <!-- второй раздел -->
-				<div > 
-
-					<div  id="polos2" class="polos"></div>
-		
-						<div id="txt2">    
-					  	    Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Повседневная практика показывает, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
-    						Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач.
-						</div>
-						<h1 id="istor" style="color: #161616"> Истрория </h1>
-					
-						<img id="img2" src="">
-						<a href="#"><div class="btn_prod" id="btn_prod2">Продолжить</div></a>
-				
-				</div>
-
-				<!--Третий раздел-->
-
-				<div > 
-
-					<div  id="polos3" class="polos"></div>
-		
-						<div id="txt3">    
-					  	    Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу. Повседневная практика показывает, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
-    						Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач.
-						</div>
-						<h1 id="gal" style="color: #161616">Галлерея </h1>
-					 
-						<img id="img3" src="">
-						<a href="#"><div class="btn_prod" id="btn_prod3">Продолжить</div></a>
-				
-				</div>
-			</div>
-		</section>
+}
+.menu a{
+		  text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 95%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.8s;
+}
+.menu li{
+		margin-top: 27px;
+		margin-left:200px;
+}
+.menu a:hover {
+    background-size: 100% 2px;
+}
 
 
+/* конец хедера  */
 
-			
-		<footer id="footer" class="footer">
-			<div class="container">
-				<div class=kon>
 
-				</div>
-			</div>
-		</footer>
-		<script type="text/javascript" >
-			$("window").load(function() {
- 			 $("body").removeAttr("id");
-			});
-		</script>
-	</body>
-	</html>
+/* начало контента  */
+.banner{
+		position: absolute;
+		top:317px;
+		left:0px;
+		height:200px;
+		width:1521.5px; 
+		background: #C4C4C4;
+}
+
+.slayd{
+	position: absolute;
+		top:525px;
+		left:0px;
+		height:375px;
+		width:1521.5px; 
+		background: #C4C4C4;
+}
+.about img{
+		position: absolute;
+		width: 1000px;
+		height: 550px;
+	}	
+.polos{
+		z-index: 1;
+		position: absolute;
+		height: 6px;
+		width: 600px;
+		background: #C4C4C4;
+	}
+.btn_prod{
+		color:#161616;
+		padding: 25px 140px;
+		font-size:25px;
+		position: absolute;
+		padding-left: center;
+		height: 30px;
+		width: 160px;
+		background: #94D1CE;
+		box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+
+
+		  -webkit-transition: all 0.5s ease;;
+ 		 -moz-transition: all 0.5s ease;;
+ 		 -o-transition: all 0.5s ease;;
+  		transition: all 0.5s ease;
+}
+ /*первый раздел*/
+#polos1{
+		width: 520px;
+		left: 1000px;
+		top: 1050px;
+}
+#img1{
+		top: 1000px;
+		left: 0px;
+}
+#mus_exp{
+		position:absolute;
+		top: 975px;
+		left:1050px;
+		font-size: 33px;
+}
+#txt1{
+	position: absolute;
+	width: 425px;
+	height: 420px;
+	left:1050px;
+	top: 1075px;
+	font-size:17px;
+}
+#btn_prod1{
+	top: 1460px;
+	left:1050px;
+}
+
+
+ /*второй раздел*/
+#polos2{
+		width: 522px;
+		left: 0px;
+		top: 1700px;
+}
+#img2{
+		top: 1650px;
+		right: 0px;
+}
+#istor{
+		left:30px; 
+		position:absolute;
+		font-size: 33px;;
+		top:1625px;
+}
+#txt2{
+	position: absolute;
+	width: 425px;
+	height: 420px;
+	left:30px;
+	top: 1725px;
+	font-size:17px;
+}
+#btn_prod2{
+	top: 2100px;
+	left:30px;
+}
+
+ /*третий раздел раздел*/
+
+#polos3{
+	width: 521px;
+		top: 2375px;
+		left:1000px;
+}
+#img3{
+		top: 2300px;
+		left: 0px;
+}
+#gal{
+	position: absolute;
+	width: 425px;
+	height: 420px;
+	left:1050px;
+	top: 2300px;
+	font-size:33px;
+}
+
+#txt3{
+	position: absolute;
+	width: 425px;
+	height: 420px;
+	left:1050px;
+	top: 2400px;
+	font-size:17px;
+}
+#btn_prod3{
+	top: 2780px;
+	left:1050px;
+}
+/*анимации в контенте*/
+.btn_prod:hover {
+
+  background:#D194C4;
+}
+
+/*ну шо подвал*/
+.kon{
+}
+
+@media screen and(max-width: 1200px){
+	.container{
+		max-width: 970px;
+	}
+}
+@media screen and(max-width: 992px){
+	.container{
+		max-width:  750px;
+	}
+}
+@media screen and(max-width: 991px){
+	.container{
+		width: 720px;
+	}
+}
+
