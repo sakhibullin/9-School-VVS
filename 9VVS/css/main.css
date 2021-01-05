@@ -29,14 +29,14 @@ a{
 	padding-top: 40px;
 	font-family: 'Ledger', serif;
 	font-size: 28px;
-	padding-left:15% ;
+	margin-left:22% ;
 }
 
 .line{
 	height: 3px;
 	background: #D19494;
-	width: 600px;
-	margin-left:15%;
+	width: 430px;
+	margin-left:22%;
 	border-radius: 1px;
 }
 
@@ -54,7 +54,7 @@ a{
 	font-family: 'Ledger', serif;
 	width: 200px;
 	display: inline-block;
-	color: #161616;
+	color: #000;
 	text-decoration: none;
 	background-color: #94D1CE;
 	padding: 21px 50px;
@@ -67,7 +67,7 @@ a{
 	transition: background-color .1s linear;
 }
 
-.qestion:hover {
+.qestion:hover{
 	background-color:#7eb9b6;
 }
 
@@ -83,9 +83,9 @@ a{
 	display: flex;
 	justify-content: center;
 	justify-content: space-between;
-	padding-right:  100px;
-	padding-top:80px;
-	margin-left: 15%;
+	padding-right: 100px;
+    padding-top: 80px;
+    margin-left: 15%;
 	color:#000;
 
 }
@@ -107,7 +107,6 @@ a{
 }
 
 .inst__ico{
-	margin-left: 250px;
 	width: 20px;
 	height: 20px;
 }
@@ -116,7 +115,6 @@ a{
 width: 20px;
 height: 20px;
 }
-
 
 
 /*============NAV=================*/
