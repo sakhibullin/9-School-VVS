@@ -5,6 +5,10 @@ body{
 	color: #161616;
 }
 
+p{
+margin:0;
+}
+
 a{
 	color:	#161616;
 }
