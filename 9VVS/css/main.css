@@ -67,7 +67,7 @@ a{
 	transition: background-color .1s linear;
 }
 
-.qestion:hover{
+.qestion:hover {
 	background-color:#7eb9b6;
 }
 
@@ -137,9 +137,7 @@ height: 20px;
 	margin-bottom: 38px;
 	color: #161616;
 }
-.nav a:hover{
-	border-bottom: 2px #b57070 solid;
-}
+
 .nav a{
 	color: #161616;
 	text-decoration: none;	
@@ -307,5 +305,17 @@ input{ /*скрывает стандартные инпуты (чекбоксы)
 }
 
 
+
+.nav a:hover {
+    background-size: 100% 2px;
+}
+.nav a{
+		  text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 95%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.8s;
+}
 
 
