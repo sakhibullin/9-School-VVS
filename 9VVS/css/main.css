@@ -1,12 +1,13 @@
 body{
+body{
 	font-family: 'Ledger', serif;
 	background: #fbfbfb;
 	margin:0;
-	color: #000;
+	color: #161616;
 }
 
 a{
-	color: #000;
+	color:	#161616;
 }
 
 *,*:before,*:after{
@@ -54,7 +55,7 @@ a{
 	font-family: 'Ledger', serif;
 	width: 200px;
 	display: inline-block;
-	color: #000;
+	color: #161616;
 	text-decoration: none;
 	background-color: #94D1CE;
 	padding: 21px 50px;
@@ -107,6 +108,7 @@ a{
 }
 
 .inst__ico{
+	margin-left: 250px;
 	width: 20px;
 	height: 20px;
 }
@@ -134,58 +136,25 @@ height: 20px;
 	padding: 0 100px;
 	margin-top: -60px;
 	margin-bottom: 38px;
-	color: #000;
+	color: #161616;
+}
+.nav a:hover{
+	border-bottom: 2px #b57070 solid;
+}
+.nav a{
+	color: #161616;
+	text-decoration: none;	
+	transition: border-bottom .01s linear;
 }
 
-.mus{
-text-decoration: none;
-transition: border-bottom .01s linear;
-color: #000;
-}
 
-.mus:hover{
-border-bottom: 2px #b57070 solid;}
-
-.mus:active{
-	color: #000;
-}
-
-.hist{
-text-decoration: none;
-transition: border-bottom .01s linear;
-}
-
-.hist:hover{
-border-bottom: 2px #b57070 solid;}
-
-.hist:active{
-	color: #000;
-}
-
-.peop{
-text-decoration: none;
-transition: border-bottom .01s linear;
-}
-
-.peop:hover{
-border-bottom: 2px #b57070 solid;
-}
-
-.peop:active{
-	color: #000;
-}
 
 .gall{
-text-decoration: none;	
-transition: border-bottom .01s linear;
-}
 
-.gall:hover{
-border-bottom: 2px #b57070 solid;
 }
 
 .gal:active{
-	color: #000;
+	color: #161616;
 }
 
 
@@ -193,7 +162,7 @@ border-bottom: 2px #b57070 solid;
 
 .banner{
 	width: 100%;
-	height:100px; 
+	height:130px; 
 	background:#c4c4c4;
 }
 
