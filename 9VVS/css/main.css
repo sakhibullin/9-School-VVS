@@ -1,3 +1,170 @@
+body{
+	font-family: 'Ledger', serif;
+	background: #fbfbfb;
+	margin:0;
+	color: #161616;
+}
+
+a{
+	color:	#161616;
+}
+
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+
+/*=========Header==========*/
+.container{
+	width: 100%;
+	max-width: 1115px;
+	margin: auto;
+}
+
+.button_better{
+	position: absolute;
+    right: 1140px;
+}
+
+.hellow{
+	padding-top: 40px;
+	font-family: 'Ledger', serif;
+	font-size: 28px;
+	padding-left:15% ;
+}
+
+.line{
+	height: 3px;
+	background: #D19494;
+	width: 600px;
+	margin-left:15%;
+	border-radius: 1px;
+}
+
+.shadow{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 200px;
+	height: 114px;
+	margin: -150px 10px 0 900px;
+	color: #fff;
+	position: absolute;
+	display: flex;
+	z-index: 2;
+}
+.qestion{
+	font-family: 'Ledger', serif;
+	width: 200px;
+	display: inline-block;
+	color: #161616;
+	text-decoration: none;
+	background-color: #94D1CE;
+	padding: 21px 50px;
+	display: flex;
+	margin: -130px 10px 0 900px;
+	font-size: 19px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	z-index: 100;
+	position: absolute;
+	transition: background-color .1s linear;
+}
+
+.qestion:hover{
+	background-color:#7eb9b6;
+}
+
+.logo{
+	width: 150px;
+	height:150px;
+	margin: -94px -20px;
+	position: absolute;
+	left: 40px;
+}
+
+.links{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	padding-right:  100px;
+	padding-top:80px;
+	margin-left: 15%;
+	color:#000;
+
+}
+
+.inst{
+	font-family: 'Ledger', serif;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.vk{
+	font-family: 'Ledger', serif;
+	text-decoration: none;
+}
+
+.site{
+	font-family: 'Ledger', serif;
+	text-decoration: none;
+}
+
+.inst__ico{
+	margin-left: 250px;
+	width: 20px;
+	height: 20px;
+}
+
+.vk__ico{
+width: 20px;
+height: 20px;
+}
+
+
+
+/*============NAV=================*/
+
+.nav__bg{
+	background: #E4E4E4;
+	width: 100%;
+	height: 100px;
+	font-family: 'Ledger', serif;
+}
+
+.nav{
+	display: flex;
+	text-decoration: none;
+	justify-content: space-between;
+	padding: 0 100px;
+	margin-top: -60px;
+	margin-bottom: 38px;
+	color: #161616;
+}
+.nav a:hover{
+	border-bottom: 2px #b57070 solid;
+}
+.nav a{
+	color: #161616;
+	text-decoration: none;	
+	transition: border-bottom .01s linear;
+}
+
+
+
+.gall{
+
+}
+
+.gal:active{
+	color: #161616;
+}
+
+
+/*========Banner===========*/
+
+.banner{
+	width: 100%;
+	height:130px; 
+	background:#c4c4c4;
+}
+
 /*=============Slider==============*/
 #slider { /*положение слайдера*/
     position: relative;
@@ -138,3 +305,7 @@ input{ /*скрывает стандартные инпуты (чекбоксы)
 #controls label{ /*прозрачность стрелок при отводе курсора*/
 	transition: opacity 0.2s ease-out;
 }
+
+
+
+
