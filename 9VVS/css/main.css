@@ -171,7 +171,7 @@ height: 20px;
 }
 
 #slider{ /*центровка слайдера*/
-	margin: 0 auto;
+	margin: 0 0;
 }
 
 #slides article{ /*все изображения справа друг от доруга*/
@@ -191,11 +191,12 @@ height: 20px;
 
 article img{ /*размер изображений слайдера*/
 	width: 100%;
-	height: 255px;
+	height:450px;
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
-	max-width: 960px; /*максимальнная длинна*/
+	max-width: 100%; /*максимальнная длинна*/
+	height: 450px;
 }
 
 /*настройка переключения и положения для левой стрелки*/
@@ -209,7 +210,7 @@ article img{ /*размер изображений слайдера*/
 	float: left;
 	 /*сдвиг влево*/
 	display: block;
-	margin-top: 70px;
+	margin: 150px;
 	height: 68px;
 	width: 68px;
 	    margin-left: -10px;
@@ -226,9 +227,9 @@ article img{ /*размер изображений слайдера*/
 	/*сдвиг вправо*/
 	display: block;
 	height: 68px;
-	margin-top: 70px;
+	margin-top:150px;
 	width: 68px;
-	margin-right: -10px;
+	margin-right: 0px;
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
