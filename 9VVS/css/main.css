@@ -226,7 +226,7 @@ border-bottom: 2px #b57070 solid;
 
 article img{ /*размер изображений слайдера*/
 	width: 100%;
-	height: 255px;
+	height: 350px;
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
