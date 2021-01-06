@@ -196,7 +196,7 @@ article img{ /*размер изображений слайдера*/
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
-	max-width: 960px; /*максимальнная длинна*/
+	max-width: 980px; /*максимальнная длинна*/
 }
 
 /*настройка переключения и положения для левой стрелки*/
@@ -322,21 +322,3 @@ article:hover label {
     background-size: 0% 2px;
     transition: background-size 0.8s;
 }
-.content{
-	position: absolute;
-	display: flex;
-	
-	margin-top:100px;
-}
-.content img{
-	width: 900px;
-
-}
-
-.podch{
-width: 100%;
-	height:130px; 
-	background:#c4c4c4;
-}
-
-
