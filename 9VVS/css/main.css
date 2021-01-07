@@ -211,7 +211,6 @@ article img{ /*размер изображений слайдера*/
 	float: left;
 	 /*сдвиг влево*/
 	display: block;
-	margin-top: 5px;
 	height: 68px;
 	width: 68px;
 	
@@ -228,7 +227,6 @@ article img{ /*размер изображений слайдера*/
 	/*сдвиг вправо*/
 	display: block;
 	height: 68px;
-	margin-top: 5px;
 	width: 68px;
 	
 }
@@ -263,7 +261,7 @@ input{ /*скрывает стандартные инпуты (чекбоксы)
 }
 
 .controls{ /*положение блока всех управляющих элементов*/
-	margin: -25% 0 0 0;
+	margin: -268px 0 0 0;
 	width: 100%;
 	height: 50px;
 }
@@ -280,7 +278,7 @@ input{ /*скрывает стандартные инпуты (чекбоксы)
 }
 
 #active{ /*расположение блока с переключателями*/
-	margin: 16% 0 0;
+	margin: 160px 0 0;
 	text-align: center;
 }
 
@@ -465,7 +463,10 @@ article:hover label {
 @media screen and (max-width: 1400px){
 
 	.information img {
-    width: 50%
+    	    width: 100%;
+    max-width: 534px;
+    height: 530px;
+    object-fit: none;
 }
 	.block2{
 	margin-top:33px;}
@@ -518,7 +519,9 @@ article:hover label {
     	margin-top: -10%;
 	}
 	.links{
-		display: none;
+	justify-content: flex-end;
+	padding-top: 10px;
+	padding-right: 20px
 	}
 	.hellow{
 		padding-bottom:10%;
@@ -539,6 +542,8 @@ article:hover label {
 	.information img{
 	width: 100%;
 	margin-top: 48px;
+	    max-width: 100%;
+
 	}
 	
 	.information a{
@@ -563,7 +568,7 @@ article:hover label {
     display: flex;
     margin-right: 0;
     margin-left: 0;
-    font-size: 6vw;
+    font-size: 30px;
 		}
 		 .nav	{
 		 	padding: 0 10%;
@@ -608,6 +613,30 @@ article:hover label {
     			padding: 0 5%;
     			text-align: justify;
 		    }
+
+
+		.inst{
+			display: none;
+		}
+
+		.vk{
+			display: none;
+		}	
+
+		.site{
+			display: none;
+		}
+
+		.inst__ico{
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.vk__ico{
+width: 40px;
+height: 40px;
+}
 
 
 }
