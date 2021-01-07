@@ -531,13 +531,13 @@ article:hover label {
 
 		.block2
 			{
-			display: block;
+			display: none;
 			}
 
 	
 	
 		.block1{
-		display: none;
+		display: block;
 	}
 	.information img{
 	width: 100%;
@@ -596,7 +596,7 @@ article:hover label {
 		
 		}
 		
-		    .block2 img{
+		    .block1 img{
 		    	margin-top: 48px;
 		    }
 
