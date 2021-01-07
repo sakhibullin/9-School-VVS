@@ -163,6 +163,7 @@ height: 20px;
 	width: 100%;
 	height:100px; 
 	background:#c4c4c4;
+	margin-bottom: 10px;
 }
 
 /*=============Slider==============*/
@@ -170,6 +171,11 @@ height: 20px;
     position: relative;
 	text-align: center;
     top: 10px;
+}
+
+.slider{
+	height: 508px;
+    background: #bfbfbf;
 }
 
 #slider{ /*центровка слайдера*/
@@ -293,8 +299,8 @@ input{ /*скрывает стандартные инпуты (чекбоксы)
 #switch3:checked ~ #active label:nth-child(3),
 #switch4:checked ~ #active label:nth-child(4),
 #switch5:checked ~ #active label:nth-child(5){
-	background: #9c9c9c;
-	border-color: #9c9c9c !important;
+	background: #e25555;;
+	border-color: #e25555 !important;
 }
 
 #slides .image{ /*анимация пролистывания изображений*/
@@ -426,7 +432,7 @@ article:hover label {
 .text__r h2{
 	justify-content: flex-end;
     display: flex;
- 
+ 	margin-right: 5%;
     margin-top: 5%;
 }
 
@@ -447,6 +453,40 @@ article:hover label {
 .block1{
 	margin-top: 100px;
 }
+
+
+.end__banner{
+	display: flex;
+	width: 100%;
+	height: 200px;
+	background: #F2F2F2;
+}
+
+.end__banner p{
+	margin:0; 
+}
+
+.end__banner img{
+	width: 122px;
+	height: 146px;
+	margin:auto 10px; 
+}
+
+.contacts{
+	color: #000;
+	margin:auto 10px;
+}
+
+.contactsV2{
+margin-left: 42%;
+    text-align: center;
+    margin-right: 66px;
+    color: #606060;
+    margin-top: 68px;
+    display: table-cell;
+    justify-content: flex-end;}
+
+
 
 @media screen and (max-width: 1600px){
 .information h2{
@@ -486,6 +526,12 @@ article:hover label {
 		font-size: 15px;
 	}
 
+			.end__banner p{
+			font-size: 13px;
+		}
+		#desktop:checked ~ #slider {
+    max-width: 980px;
+
 }
 
 @media screen and (max-width: 950px){
@@ -496,6 +542,10 @@ article:hover label {
 	.header{
 		padding:0px 0px	;
 	}
+
+	#desktop:checked ~ #slider {
+    max-width: 730px;}
+
 	.logo{
 		
     	margin: -15% -5%;
@@ -570,6 +620,11 @@ article:hover label {
     margin-left: 0;
     font-size: 30px;
 		}
+
+		.end__banner p{
+			font-size: 11px;
+		}
+
 		 .nav	{
 		 	padding: 0 10%;
 		 }
@@ -640,4 +695,21 @@ height: 20px;
 }
 
 
+}
+
+
+@media screen and (max-width: 750px){
+	.contactsV2 {
+    margin-left: 0;
+    text-align: center;
+    margin-right: 66px;
+    color: #606060;
+    margin-top: 68px;
+    display: table-cell;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 450px){
+.end__banner p {
+	font-size: 8px;
+}
 }
