@@ -455,7 +455,6 @@ article:hover label {
 }
 .information a{
 	padding: 3% 31%;
-	font-size: 50px;
     margin: 5.5%;
 }
 
@@ -558,7 +557,7 @@ article:hover label {
 	
 	.information p{
 	margin-left:4%;	
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	font-size: 24px;
 	}
 	.nav_bg{
