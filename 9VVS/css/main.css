@@ -376,6 +376,10 @@ article:hover label {
 	display: flex;
 }
 
+.block2__mobile{
+		    	display: none; }
+
+
 
 #obv{
 	position: absolute;
@@ -449,7 +453,7 @@ article:hover label {
 .information h2{
 	margin: 10px;
 	padding-left:4%;
-	font-size: 6vw;
+	font-size :40px;
 }
 .information a{
 	padding: 3% 27%;
@@ -478,6 +482,10 @@ article:hover label {
 	.information p{
     font-size: 15px;
 	}
+	.block2__mobile p{
+		font-size: 15px;
+	}
+
 }
 
 @media screen and (max-width: 950px){
@@ -522,16 +530,16 @@ article:hover label {
 		.block2
 			{
 			display: block;
-			background: #969696;
 			}
 
 	
 	
 		.block1{
-		display: block;
+		display: none;
 	}
 	.information img{
 	width: 100%;
+	margin-top: 48px;
 	}
 	
 	.information a{
@@ -540,7 +548,7 @@ article:hover label {
 	}
 	
 	.information p{
-	margin-left:10%;	
+	margin-left:4%;	
 	margin-bottom: 30px;
 	}
 	.nav_bg{
@@ -551,6 +559,7 @@ article:hover label {
 		display: flex;
 		margin-right: 0;
 			margin-left: 0;
+			font-size: 32px;
 		}
 		 .nav	{
 		 	padding: 0 10%;
@@ -579,9 +588,22 @@ article:hover label {
 		}
 		
 		    .block2 img{
-		    	margin-top: 33px;
+		    	margin-top: 48px;
 		    }
+
+
+		    .block2__mobile{
+		    	display: block;
+		    }
+
+		   	.block2__mobile p{
+		    	display: block;
+		    	padding-bottom: 40px;
+    margin-top: 20px;
+    margin-right: 5%;
+    padding: 0 5%;
+    text-align: justify;
+		    }
+
+
 }
-
-
-
