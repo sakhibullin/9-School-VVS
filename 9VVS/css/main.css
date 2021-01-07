@@ -620,6 +620,11 @@ margin-left: 42%;
     margin-left: 0;
     font-size: 30px;
 		}
+	.end__banner img{
+	width: 81px;
+	height: 97px;
+	margin:auto 10px; 
+}
 
 		.end__banner p{
 			font-size: 11px;
