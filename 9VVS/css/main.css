@@ -652,12 +652,14 @@ margin-left: 42%;
 		}
 		
 		    .block1 img{
-		    	margin-top: 48px;
+		    	margin-top: -17px;
+
 		    }
 
 
 		    .block2__mobile{
 		    	display: block;
+		    	margin-top: -27px;
 		    }
 
 		   	.block2__mobile p{
@@ -694,6 +696,19 @@ width: 20px;
 height: 20px;
 }
 
+.slider__img{
+	width: 50%;
+    height: 320px;
+
+}
+
+.slider {
+    height: 339px;}
+
+.controls {
+    margin: -189px 0 0 0;
+    height: 0px;
+}
 
 }
 
@@ -712,4 +727,30 @@ height: 20px;
 .end__banner p {
 	font-size: 8px;
 }
+
+.slider__img{
+	width: 30%;
+    height: 170px;
+
+}
+
+.slider {
+    height: 190px;}
+
+.controls {
+    margin: -115px 0 0 0;
+    height: 0px;
+    width: 100% ;
+}
+
+#active label {
+    width: 40px;
+}
+
+#active {
+    margin: 86px 0 0;}
+#first{
+    margin-top: -109px;
+}
+
 }
