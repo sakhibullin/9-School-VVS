@@ -307,6 +307,8 @@ margin-left: 42%;
     	height: auto;
 		
 		}
+	.inform a {
+		font-size: 20px;}
 
 	.button_better{
 				display: none;
