@@ -295,6 +295,9 @@ margin-left: 42%;
 		margin:0px 0px;
 		padding:0px 0px;
 	}
+
+	.inform a {
+    font-size: 20px;}
 	.header{
 		padding:0px 0px	;
 	}
@@ -307,8 +310,6 @@ margin-left: 42%;
     	height: auto;
 		
 		}
-	.inform a {
-		font-size: 20px;}
 
 	.button_better{
 				display: none;
