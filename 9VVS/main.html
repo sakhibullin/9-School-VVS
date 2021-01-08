@@ -7,6 +7,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Ledger&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- jQuery 1.8 or later, 33 KB -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Fotorama from CDNJS, 19 KB -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
 <body class="body">
 	<div class="container">
@@ -38,7 +44,7 @@
 				<a href="#" class="mus">Музейная экспозиция</a>
 				<a href="#" class="hist">История</a>
 				<a href="#" class="peop">Выпускники</a>
-				<a href="#" class="gall">Галлерея</a>
+				<a href="gallerey.html" class="gall">Галлерея</a>
 			</nav>
 		
 	</div>
@@ -50,54 +56,16 @@
 	<img src="" alt="" class="banner__img">
 </div>	
 <div class="slider">
-	<input checked type="radio" name="respond" id="desktop">
-			<article id="slider">
-					<input checked type="radio" name="slider" id="switch1">
-					<input type="radio" name="slider" id="switch2">
-					<input type="radio" name="slider" id="switch3">
-					<input type="radio" name="slider" id="switch4">
-					<input type="radio" name="slider" id="switch5">
-				<div id="slides">
-					<div id="overflow">
-						<div class="image">
-							<article>	
-								<a class="hiden">
-									<img src="img/1.jpg" class="slider__img"></article>
-								</a>
-							<article>
-								<a class="hiden">
-									<img src="img/2.jpg" class="slider__img"></article>
-								</a>
-							<article>
-								<a class="hiden">
-									<img src="img/3.jpg" class="slider__img"></article>
-								</a>
-								
-							<article>
-								<a class="hiden">
-								<img src="img/4.jpg" class="slider__img"></article>
-								</a>
-							<article>
-								<a class="hiden">
-								<img src="img/5.jpg" class="slider__img"></a></article>
-						</div>
-					</div>
-				</div>
-				<div class="controls">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-					<label for="switch4"></label>
-					<label for="switch5"></label>
-				</div>
-				<div id="active">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-					<label for="switch4"></label>
-					<label for="switch5"></label>
-				</div>
-			</article>
+	<div class="fotorama">
+  		<img src="img/1.jpg">
+  		<img src="img/1.jpg">
+  		<img src="img/1.jpg">
+  		<img src="img/1.jpg">
+  		<img src="img/1.jpg">
+  		<img src="img/1.jpg">
+  		<img src="img/1.jpg">
+  		<img src="img/1.jpg">
+	</div>
 </div>
 <div class="container__v2">
 	<div class="information">
