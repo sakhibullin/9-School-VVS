@@ -728,9 +728,11 @@ height: 34px;
 height: 34px;
     width: 34px;}
 
-
-
-
+.end__banner img{
+	width: 66px;
+	height: 73px;
+	margin:auto 10px; 
+}
 
 
 }
