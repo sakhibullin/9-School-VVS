@@ -344,13 +344,13 @@ article:hover label {
 }
 .information p{
 	padding-bottom: 40px;
-    font-size: 18px;
-    margin-top: 20px;;
+    font-size: 20px;
+    margin: 25px;
     padding: 0 auto 10px;
 }
 .information h2{
 	font-size: 33px;
-	margin-top: 20px;
+	margin:5px 20px;
 }
 .information a{
     margin-left: 17%;
@@ -425,14 +425,13 @@ article:hover label {
 
 .text__l h2{
 	display: rtl;
-	margin-left: 5%;
+	margin-left: 10%;
 }
 
 
 .text__r h2{
-	justify-content: flex-end;
     display: flex;
- 	margin-right: 5%;
+ 	margin-left: 10%;
     margin-top: 5%;
 }
 
@@ -443,11 +442,9 @@ article:hover label {
 .text__r p{
 	padding-bottom: 40px;
     font-size: 18px;
-    margin-top: 20px;
-    margin-right: 5%;
-    margin-bottom: 90px;
+   margin-left: 20px auto;
     padding: 0 5%;
-    text-align: justify;
+   
 }
 
 .block1{
@@ -459,6 +456,7 @@ article:hover label {
 	display: flex;
 	width: 100%;
 	height: 200px;
+	margin-top:30px; 
 	background: #F2F2F2;
 }
 
@@ -490,12 +488,11 @@ margin-left: 42%;
 
 @media screen and (max-width: 1600px){
 .information h2{
-	margin: 10px;
+    margin: 10px 42p
 	font-size :40px;
 }
 .information a{
-	padding: 3% 31%;
-    margin: 5.5%;
+    margin: 8.7%;
 }
 
 }
@@ -728,11 +725,9 @@ height: 34px;
 height: 34px;
     width: 34px;}
 
-.end__banner img{
-	width: 66px;
-	height: 73px;
-	margin:auto 10px; 
-}
+
+
+
 
 
 }
