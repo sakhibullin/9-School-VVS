@@ -155,27 +155,42 @@ a{
     max-width: 810px;
 
 }
-
-button{
-	    font-size: 19px;
+	.txt p{
+	font-size: 23px;
+}
+	.txt2 p{
+		font-size: 23px;
+	}
+.informat button{
+	width: 200px;
+		margin:10px 30px;
+	    font-size: 20px;
 }
 
 @media screen and (max-width: 1400px){	
-	
+
 
 .txt img {
     max-width: 610px;
-    width: 100%;
+    width: 100%;}
 
+.informat button{
+		padding: 0px 10px; .infom a{
+    	font-size: 20px;
+    }
+	    margin: 10px 30px;
 
 }
 
 @media screen and (max-width: 1200px){
-	.txt img {
+	.txt img {	
+	font-size:20px;
     max-width: 410px;
 }
+.informat button{
+	    font-size: 15px;
 
-
+}
 
 
 
@@ -259,9 +274,9 @@ button{
 
 @media screen and (max-width: 450px){
 .informat button {
-    font-size: 13px;
+    font-size: 10px;
     padding: 0;
     margin: 0px;
-    width: 200px;
+    width: 120px;
 }
 }
