@@ -5,6 +5,17 @@
 	color: #161616;
 }
 
+iframe{
+	margin: auto;
+	width: 560px ;
+}
+
+.video{
+	margin-left: auto;
+    margin-right: auto;
+	width: 560px ;
+}
+
 a{
 	text-decoration: : none;
 	color:	#161616;

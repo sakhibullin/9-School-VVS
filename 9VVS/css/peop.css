@@ -6,6 +6,7 @@
 	display: inline-grid;
 	right: 30px;
 	top: 60%;
+  cursor: pointer;
 }
 .liveSearchBar, .liveSearchBar li{
   margin:0;
