@@ -14,6 +14,18 @@ a{
 	box-sizing: border-box;
 }
 
+.carousel-item  {
+  height: 505px;
+  width: 100%;
+}
+
+.carousel-inner {
+    height: 510px;}
+
+   .carousel-item {
+    width: fit-content;}
+     
+
 /*=========Header==========*/
 .container{
 	width: 100%;

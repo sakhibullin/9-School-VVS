@@ -56,6 +56,10 @@ button:focus{
 	margin: 10px 40px;
 }
 
+h2 {
+	margin-left: 15px;
+}
+
 
 .end__banner p{
 	margin:0; 
