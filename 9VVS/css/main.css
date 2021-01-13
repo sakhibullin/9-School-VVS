@@ -2,12 +2,12 @@
 	font-family: 'Ledger', serif;
 	background: #fbfbfb;
 	margin:0;
-	color: #161616;
+	color: #000;
 }
 
 a{
 	text-decoration: : none;
-	color:	#161616;
+	color:	#000;
 }
 
 *,*:before,*:after{
@@ -17,6 +17,14 @@ a{
 .carousel-item  {
   height: 505px;
   width: 100%;
+}
+
+.w-100{
+	cursor: pointer;
+}
+
+carousel-item img{
+	cursor: pointer;
 }
 
 .carousel-inner {
@@ -72,12 +80,13 @@ a{
 	background-color: #94D1CE;
 	padding: 21px 50px;
 	display: flex;
-	margin: -130px 10px 0 900px;
+	margin: -84px 10px 0 900px;
 	font-size: 19px;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	z-index: 100;
 	position: absolute;
 	transition: background-color .3s linear;
+	color: #000;
 }
 
 .qestion:hover{
@@ -108,20 +117,24 @@ a{
 	font-family: 'Ledger', serif;
 	text-decoration: none;
 	font-size: 16px;
+	color: #000;
 }
 
 .vk{
 	font-family: 'Ledger', serif;
 	text-decoration: none;
+	color: #000;
 }
 
 .site{
 	font-family: 'Ledger', serif;
 	text-decoration: none;
+	color: #000;
 }
 
 .inst__ico{
 	width: 20px;
+
 	height: 20px;
 }
 
@@ -238,6 +251,7 @@ height: 20px;
     transition: 0.7s;
     padding: 15px 27%;
     background: #94D1CE;
+    color: #000;
 }
 .information img{
 	width: 90%;
