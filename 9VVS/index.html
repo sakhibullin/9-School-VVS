@@ -19,7 +19,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 	
 </head>
-<body class="body">
+<body class="body" onload="myFunction3()"  onload="myFunction4()"  onload="myFunction5()">
 	<div class="container">
 		<header>
 			<h2 class="hellow">9 Спец. школе ВВС посвещаем</h2>
@@ -194,38 +194,28 @@
 
 		
 	</script>
-	<script type=text/javascript>
+	<script type="text/javascript">
 
-    $(window).resize(function() {
+   function myFunction3() {
   if(document.documentElement.clientWidth < 1100) {
    document.getElementsByClassName("carousel-inner")[0].style.width='590px';
    document.getElementsByClassName("carousel-inner")[0].style.height='310px';
   }
-  });
-
-</script>
-	<script type=text/javascript>
-
-    $(window).resize(function() {
-  if(document.documentElement.clientWidth < 650) {
+if(document.documentElement.clientWidth < 650) {
    document.getElementsByClassName("carousel-inner")[0].style.width='390px';
    document.getElementsByClassName("carousel-inner")[0].style.height='210px';
    document.getElementsByClassName("photo")[0].style.width='66px';
    document.getElementsByClassName("photo")[0].style.height='73px';
    document.getElementsByClassName("nav")[0].style.flexWrap='nowrap';
   }
-  });
-
-</script>
-	<script type=text/javascript>
-
-    $(window).resize(function() {
-  if(document.documentElement.clientWidth < 450) {
+if(document.documentElement.clientWidth < 450) {
    document.getElementsByClassName("carousel-inner")[0].style.width='290px';
    document.getElementsByClassName("carousel-inner")[0].style.height='150px';
   }
-  });
 
+  };
+
+</script>
 </script>
 </body>
 </html>
