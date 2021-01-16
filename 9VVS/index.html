@@ -159,7 +159,7 @@
 </div>
 
 <div class="end__banner">
-	<img src="img/gerb.png" alt="">	
+	<img src="img/gerb.png" alt="" 	class="photo">	
 		<div class="contacts">
 			<p>Казанский федеральный университет
 			<p>Адрес: 420008, Казань, ул. Кремлевская, 18.
@@ -194,5 +194,38 @@
 
 		
 	</script>
+	<script type=text/javascript>
+
+    $(window).resize(function() {
+  if(document.documentElement.clientWidth < 1100) {
+   document.getElementsByClassName("carousel-inner")[0].style.width='590px';
+   document.getElementsByClassName("carousel-inner")[0].style.height='310px';
+  }
+  });
+
+</script>
+	<script type=text/javascript>
+
+    $(window).resize(function() {
+  if(document.documentElement.clientWidth < 650) {
+   document.getElementsByClassName("carousel-inner")[0].style.width='390px';
+   document.getElementsByClassName("carousel-inner")[0].style.height='210px';
+   document.getElementsByClassName("photo")[0].style.width='66px';
+   document.getElementsByClassName("photo")[0].style.height='73px';
+   document.getElementsByClassName("nav")[0].style.flexWrap='nowrap';
+  }
+  });
+
+</script>
+	<script type=text/javascript>
+
+    $(window).resize(function() {
+  if(document.documentElement.clientWidth < 450) {
+   document.getElementsByClassName("carousel-inner")[0].style.width='290px';
+   document.getElementsByClassName("carousel-inner")[0].style.height='150px';
+  }
+  });
+
+</script>
 </body>
 </html>

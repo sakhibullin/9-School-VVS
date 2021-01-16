@@ -428,6 +428,10 @@ margin-left: 42%;
 		padding:0px 0px	;
 	}
 
+	.end__banner img {
+    width: 66px;
+    height: 73px;}
+
 	.logo{
 		
     	margin: -15% -5%;
@@ -580,7 +584,9 @@ height: 20px;
 
 
 
-
+.carousel-inner{
+	width: 600px;
+}
 }
 
 
