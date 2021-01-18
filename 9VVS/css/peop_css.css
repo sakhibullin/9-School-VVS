@@ -36,8 +36,7 @@ button:focus{
 	justify-content: center;
 	margin-top: 10px;
 	max-width: 1400px;
-	width: 100%;
-	margin: auto;
+    margin: 10px;
 }
 
 .active{
@@ -152,6 +151,9 @@ margin-left: 42%;
 
 
 @media screen and (max-width: 750px){
+	a{
+
+	}
 	.contactsV2 {
     margin-left: 0;
     text-align: center;

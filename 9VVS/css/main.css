@@ -239,7 +239,7 @@ height: 20px;
 }
 .information h2{
 	font-size: 33px;
-	margin:5px 20px;
+	padding: 16px;
 }
 .information a{
     margin-left: 17%;
@@ -316,24 +316,29 @@ height: 20px;
 .text__l h2{
 	display: rtl;
 	margin-left: 10%;
+	margin-top: 2px;
 }
 
 
 .text__r h2{
     display: flex;
  	margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 2px;
 }
 
 .text__l p{
-
+	padding-bottom: 40px;
+    font-size: 18px;
+    margin-left: 20px auto;
+    padding: 0 5%
 }
 
 .text__r p{
 	padding-bottom: 40px;
     font-size: 18px;
-   margin-left: 20px auto;
+    margin-left: 20px auto;
     padding: 0 5%;
+    text-align: justify;
    
 }
 
@@ -504,22 +509,20 @@ margin-left: 42%;
     display: flex;
     margin-right: 0;
     margin-left: 0;
-    font-size: 30px;
+ 
 		}
 
 		.end__banner p{
 			font-size: 11px;
 		}
 
-		 .nav	{
-		 	padding: 0 10%;
-		 }
-		 .nav .mus{
-		 	padding-top: 0%;
+		 .nav	{	padding: 3% 3%;
 		 }
 		.nav a{
+			padding:0px 100px;
+			margin-top:0px;
 		    display: flex;
-		    font-size: 3vw;
+		    font-size: 15px;
 		 	 padding: 2% 3% 2% 3%;
 		}
 		
@@ -529,7 +532,7 @@ margin-left: 42%;
 			width: 100%;
 			height: 40%;
 			margin-top: 10px;
-			padding-bottom: 2%;
+			
 			font-family: 'Ledger', serif;
 		}
 		.nav_bg a{
@@ -600,11 +603,18 @@ height: 20px;
     display: table-cell;
     justify-content: flex-end;
 }
+
+
+
+}
 @media screen and (max-width: 450px){
 .end__banner p {
 	font-size: 8px;
 }
-
+.nav a{
+	padding: 10px 30px;	    
+	font-size: 13px;
+	}
 .controls {
     margin: -115px 0 0 0;
     height: 0px;
@@ -614,5 +624,17 @@ height: 20px;
 #first{
     margin-top: -109px;
 }
-
+.nav a{
+	margin-top: 10px;
+	padding: 10px 11px;	    
+	font-size: 13px;
+	}
+.nav{
+	padding-top: 10px;
+}
+.nav .mus {
+	width: 25%;
+	padding: 5px;
+	padding-right: 0px;
+}
 }

@@ -39,10 +39,9 @@
 
 
 
-
 .text-input{
   height:30px;
-  margin:70px 0 15px 40px;
+  margin:70px 0px 15px 6%;
   background: #94D1CE;
   padding:5px ;
   font-size: 20px;
@@ -76,8 +75,7 @@
   	margin-left: 65px;
   }
 .text{
-margin-left: 20px;
-margin-right: 65px;
+padding: 10px;
 text-align: justify;
 width:fit-content;
 }
@@ -109,10 +107,16 @@ width:fit-content;
 
 @media screen and (max-width: 1200px){
 	.liveSearchBar a{
-	margin-top: 5%;
+	 margin-top: 5%;
     margin-left: 15%;
     padding: 9px 100px;
 
+}
+p{
+      padding: 10px 60px 10px 10px;
+}
+.text-input {
+margin: 30px 0 15px 7%;
 }
 }
 @media screen and (max-width: 950px){
@@ -120,7 +124,7 @@ width:fit-content;
 	display: none;
 }
 .liveSearchBar li{
-	width: 96%;
+	width: 100%;
 	display: block;
 	padding-bottom: 90px;
 }
@@ -129,15 +133,13 @@ width:fit-content;
     width: 82%;
     justify-content: center;
     display: flex;
-    font-size: 4vw;
+    font-size: 3vw;
     margin-left: 5%;
 }
 
 .liveSearchBar p{
-    margin-top: 10px;
-    margin-right: 5%;
     padding: 0 5%;
-    font-size: 18px;
+    font-size: 24px;
     text-align: justify;
 }
 
@@ -153,6 +155,11 @@ width:fit-content;
 margin: auto;
 }
 
+.text-input {
+      margin: 21px 0 5px 10%;
+}
+
+
 }
 
 }
@@ -162,12 +169,33 @@ margin: auto;
 	display: block;
 	padding-bottom: 90px;
 }
-	
+.text-input {
+          margin: 25px 0 5px 20%;
 }
+}
+
+
 @media screen and (max-width: 450px){
 .liveSearchBar li{
 	display: block;
 	padding-bottom: 90px;
+}
+.text-input {
+          margin: 25px 0 5px 9.5%;
+}
+
+
+
+.liveSearchBar p {
+    font-size: 20px;}
+
+.liveSearchBar a {
+    padding: 5px 1%;
+    width: 85%;
+    justify-content: center;
+    display: flex;
+    font-size: 4vw;
+    margin-left: 4%;
 }
 
 }
