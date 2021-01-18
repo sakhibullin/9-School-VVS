@@ -19,6 +19,10 @@ a{
   width: 100%;
 }
 
+ html body a:hover{
+	color: #000;
+}
+
 .w-100{
 	cursor: pointer;
 }
@@ -420,6 +424,7 @@ margin-left: 42%;
 
 			.end__banner p{
 			font-size: 13px;
+			padding: 0;
 		}
 
 }
@@ -611,10 +616,6 @@ height: 20px;
 .end__banner p {
 	font-size: 8px;
 }
-.nav a{
-	padding: 10px 30px;	    
-	font-size: 13px;
-	}
 .controls {
     margin: -115px 0 0 0;
     height: 0px;
@@ -627,7 +628,7 @@ height: 20px;
 .nav a{
 	margin-top: 10px;
 	padding: 10px 11px;	    
-	font-size: 13px;
+	font-size: 11px;
 	}
 .nav{
 	padding-top: 10px;
