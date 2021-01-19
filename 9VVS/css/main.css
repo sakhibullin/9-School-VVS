@@ -166,6 +166,7 @@ height: 20px;
 }
 
 .nav{
+	height:120px;
 	display: flex;
 	text-decoration: none;
 	justify-content: space-between;
@@ -526,7 +527,9 @@ margin-left: 42%;
 			font-size: 11px;
 		}
 
-		 .nav	{	padding: 3% 3%;
+		 .nav	{	
+		 	height: 100px;
+		 	padding: 3% 3%;
 		 }
 		.nav a{
 			padding:0px 100px;
@@ -604,6 +607,9 @@ height: 20px;
 
 
 @media screen and (max-width: 750px){
+	.nav{
+		padding:30px;
+	}
 	.contactsV2 {
     margin-left: 0;
     text-align: center;
@@ -636,6 +642,7 @@ height: 20px;
 	font-size: 11px;
 	}
 .nav{
+	height: 80px;
 	padding-top: 10px;
 }
 .nav .mus {
