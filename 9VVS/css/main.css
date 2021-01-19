@@ -4,7 +4,12 @@
 	margin:0;
 	color: #000;
 }
-
+html body h2{
+	margin-top: revert;
+    margin-bottom: revert;
+    font-weight: 600;
+    line-height: 1.2;
+}
 a{
 	text-decoration: : none;
 	color:	#000;
@@ -164,14 +169,14 @@ height: 20px;
 	display: flex;
 	text-decoration: none;
 	justify-content: space-between;
-	padding: 0 100px;
+	padding: 0 10px;
 	color: #161616;
 }
 
 .nav a{
 	color: #161616;
 	text-decoration: none;	
-	margin-top: 34px;
+	margin:37px auto;
 	transition: border-bottom .01s linear;
 }
 
@@ -206,7 +211,7 @@ height: 20px;
 
 .fotorama{
 	    margin-right: 20px;
-    margin-left: 20px;
+    	margin-left: 20px;
 }
 
 .nav a:hover {
