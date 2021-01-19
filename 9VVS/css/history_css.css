@@ -163,10 +163,10 @@ a{
 	}
 .informat button{
 	width: 200px;
-		margin:10px 30px;
+		margin:10px 20px;
 	    font-size: 20px;
 }
-
+}
 @media screen and (max-width: 1400px){	
 
 
@@ -175,10 +175,10 @@ a{
     width: 100%;}
 
 .informat button{
-		padding: 0px 10px; .infom a{
+		padding: 0px 10px; 
     	font-size: 20px;
     }
-	    margin: 10px 30px;
+	  
 
 }
 
@@ -195,7 +195,7 @@ a{
 
 
 
-
+}
 
 
 
