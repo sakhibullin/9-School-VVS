@@ -166,7 +166,6 @@ height: 20px;
 }
 
 .nav{
-	height:120px;
 	display: flex;
 	text-decoration: none;
 	justify-content: space-between;
@@ -440,6 +439,27 @@ margin-left: 42%;
 		margin:0px 0px;
 		padding:0px 0px;
 	}
+
+	body a,p:hover{
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
 	.header{
 		padding:0px 0px	;
 	}
@@ -527,9 +547,7 @@ margin-left: 42%;
 			font-size: 11px;
 		}
 
-		 .nav	{	
-		 	height: 100px;
-		 	padding: 3% 3%;
+		 .nav	{	padding: 3% 3%;
 		 }
 		.nav a{
 			padding:0px 100px;
@@ -607,9 +625,6 @@ height: 20px;
 
 
 @media screen and (max-width: 750px){
-	.nav{
-		padding:30px;
-	}
 	.contactsV2 {
     margin-left: 0;
     text-align: center;
@@ -642,7 +657,6 @@ height: 20px;
 	font-size: 11px;
 	}
 .nav{
-	height: 80px;
 	padding-top: 10px;
 }
 .nav .mus {
