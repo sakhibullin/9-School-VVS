@@ -76,7 +76,8 @@ h2 {
 
 .txt p{
 	text-align: justify;
-	padding: 15px;
+	padding: 5px;
+	margin:0;
 }
 
 .end__banner img{

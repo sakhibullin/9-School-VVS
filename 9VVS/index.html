@@ -46,7 +46,7 @@
 		<div class="container">
 		
 			<nav class="nav">
-				<a href="#" class="mus" onclick="myFunction1()" >Музейная экспозиция</a>
+				<a href="#" class="mus" onclick="myFunction1()" >Музей</a>
 				<a href="history.html" class="hist">История</a>
 				<a href="peop.html" class="peop">Выпускники</a>
 				<a href="gallerey.html" class="gall">Галерея</a>
@@ -201,12 +201,15 @@
    document.getElementsByClassName("carousel-inner")[0].style.width='590px';
    document.getElementsByClassName("carousel-inner")[0].style.height='310px';
   }
+  if(document.documentElement.clientWidth < 950){
+document.getElementsByClassName("nav")[0].style.flexWrap='nowrap';
+  }
 if(document.documentElement.clientWidth < 650) {
    document.getElementsByClassName("carousel-inner")[0].style.width='390px';
    document.getElementsByClassName("carousel-inner")[0].style.height='210px';
    document.getElementsByClassName("photo")[0].style.width='66px';
    document.getElementsByClassName("photo")[0].style.height='73px';
-   document.getElementsByClassName("nav")[0].style.flexWrap='nowrap';
+   
   }
 if(document.documentElement.clientWidth < 450) {
    document.getElementsByClassName("carousel-inner")[0].style.width='290px';

@@ -467,7 +467,7 @@ margin-left: 42%;
 	.end__banner img {
     width: 66px;
     height: 73px;}
-.nav a:hover{} 
+
 	.logo{
 		
     	margin: -15% -5%;
@@ -561,9 +561,8 @@ margin-left: 42%;
 		.nav__bg{
 			background: #E4E4E4;
 			width: 100%;
-			height: 40%;
 			margin-top: 10px;
-			
+			    height: 84px;
 			font-family: 'Ledger', serif;
 		}
 		.nav_bg a{
@@ -621,6 +620,10 @@ height: 20px;
 .carousel-inner{
 	width: 600px;
 }
+
+.banner{
+	height: 70px;
+}
 }
 
 
@@ -658,10 +661,5 @@ height: 20px;
 	}
 .nav{
 	padding-top: 10px;
-}
-.nav .mus {
-	width: 25%;
-	padding: 5px;
-	padding-right: 0px;
 }
 }
