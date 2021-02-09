@@ -11,7 +11,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <!-- Fotorama from CDNJS, 19 KB -->
-
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -25,7 +24,7 @@
 			<h2 class="hellow">9 Спец. школе ВВС посвещаем</h2>
 			<div class="line"></div>
 			<div class="button_better" >	
-				<a href="#" class="qestion" s>Вопросы? Напишите</a>
+				<a  class="qestion" onclick="svyaz()">Вопросы? Напишите</a>
 			</div>	
 			<img src="img/Logo.png" alt="Logo" class="logo">
 
@@ -79,15 +78,19 @@
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="z-index: 0;"></span>
     <span class="visually-hidden">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next" style="z-index: 0;">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </a>
 </div>
 </div>
+
+
+
+
 <div class="container__v2">
 	<div class="information">
 		<div class="block2__mobile" id="first">
@@ -157,7 +160,32 @@
 	</div>	
 	</div>
 </div>
-
+<form target="_blank" action="https://formsubmit.co/sakhibullin2004@mail.ru" method="POST">
+	<div id="svyaz" style="display: none;"> 
+		 <div class="col-md">
+		    <div class="form-floating form-1" >
+		      <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="YourEmail@mail.ru" name="email">
+		      <label for="floatingInputGrid">Email</label>
+		    </div>
+		  </div>
+		  <div class="col-md">
+		    <div class="form-floating form-2" >
+		      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example" name="_subject" type="hidden">
+		        <option selected>Хотите дополнить информацию</option>
+		        <option value="Пожелания">Пожелания</option>
+		        <option value="Нашли ошибку">Нашли ошибку?</option>
+		      </select>
+		      <label for="floatingSelectGrid">Связаться с нами</label>
+		    </div>
+		  </div>
+		  <div class="form-floating form-3">
+			  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px" name="message" rows="10"></textarea>
+			  <label for="floatingTextarea2">Ваш текст</label>
+		</div>
+		<button type="button submit" class="btn btn-success" name="_next" value="https://yourdomain.co/thanks.html">Отправить</button>
+			<img src="https://static.tildacdn.com/tild3961-3765-4164-b230-626133346635/285155608058211.png" alt="" class="close" onclick="closeWindow()">
+	</div>
+</form>
 <div class="end__banner">
 	<img src="img/gerb.png" alt="" 	class="photo">	
 		<div class="contacts">
@@ -173,6 +201,8 @@
 		<p>Лицея им. Н.И Лобачевского КФУ</div>
 
 </div>
+
+
 
 	<script type="text/javascript">
 		  
@@ -217,7 +247,17 @@ if(document.documentElement.clientWidth < 450) {
   }
   };
 
+  function svyaz(){
+    document.getElementById("svyaz")[0].style.display = 'block' 
+}
+
+function close(){
+   document.getElementById("svyaz")[0].style.display = 'none';
+}
+
+
 </script>
 </script>
+<script type="text/javascript" src="js/svyaz.js"></script>
 </body>
 </html>
