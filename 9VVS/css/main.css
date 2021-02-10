@@ -164,6 +164,7 @@ height: 20px;
 	z-index: 10;
 	height: 100%;
 	transition: display .2 linear;
+	display: none;
 }
 
 .close {
@@ -680,6 +681,63 @@ height: 20px;
 .banner{
 	height: 70px;
 }
+
+/*========Qestions-for-mobile=========*/
+#svyaz{
+	position: unset;
+	display: block;
+	background: #Fbfbfb;
+}
+
+.form-floating {
+	position: unset;
+}
+
+.close{
+	display: none;
+}
+
+ body .form-1{
+	top:310px;
+	width: 100%;
+	position: unset;
+	left: 0;
+	margin-left: 0;
+
+}
+
+body  .form-2{
+	top:375px;
+	width: 100%;
+	position: unset;
+	left: 0;
+	margin-left: 0;
+}
+
+body  .form-3{
+	top:440px;
+	width: 100%;
+	position: unset;
+	left: 0;
+	margin-left: 0;
+}
+body .btn-success{
+	display: flex;
+	margin: auto;
+	position: unset;
+	margin-top: 10px;
+}
+
+body .form-control{
+	width: 95%;
+	margin: auto;
+}
+
+body .form-select{
+	width: 95%;
+	margin: auto;
+}
+
 }
 
 

@@ -1,6 +1,7 @@
 
 function svyaz(){
-    document.getElementById("svyaz").style.display = 'block' 
+    document.getElementById("svyaz").style.display = 'block' ;
+    console.log('work');
 }
 
 function closeWindow(){
