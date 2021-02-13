@@ -2,7 +2,7 @@
 	<div id="svyaz" style=""> 
 		 <div class="col-md">
 		    <div class="form-floating form-1" >
-		      <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="YourEmail@mail.ru" name="email">
+		      <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="" name="email">
 		      <label for="floatingInputGrid">Email</label>
 		    </div>
 		  </div>
@@ -20,7 +20,7 @@
 			  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px" name="message" rows="10"></textarea>
 			  <label for="floatingTextarea2">Ваш текст</label>
 		</div>
-		<button type="button submit" class="btn btn-success" name="_next" value="https://sakhibullin.github.io/9-School-VVS/9VVS/index.html">Отправить</button>
+		<button type="button submit" class="btn btn-success" name="_next" value="https://sakhibullin.github.io/9-School-VVS/9VVS/index.html" id="answer" onchange="colorBtn()">Отправить</button>
 			<img src="https://static.tildacdn.com/tild3961-3765-4164-b230-626133346635/285155608058211.png" alt="" class="close" onclick="closeWindow()">
 	</div>
 </form>

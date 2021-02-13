@@ -427,7 +427,7 @@ body  .form-3{
 
 .end__banner img{
 	width: 122px;
-	height: 146px;
+	height: 168px;
 	margin:auto 10px; 
 }
 
@@ -523,7 +523,7 @@ margin-left: 42%;
 
 	.end__banner img {
     width: 66px;
-    height: 73px;}
+    height: 94px;}
 
 	.logo{
 		
@@ -699,27 +699,32 @@ height: 20px;
 
  body .form-1{
 	top:310px;
-	width: 100%;
-	position: unset;
+	width: 97%;
+	position: sticky;
 	left: 0;
-	margin-left: 0;
+	display: flex;
+	margin: auto;
 
 }
 
 body  .form-2{
 	top:375px;
-	width: 100%;
-	position: unset;
+	width: 97%;
+	position: sticky;
 	left: 0;
 	margin-left: 0;
+	display: flex;
+	margin: auto;
 }
 
 body  .form-3{
-	top:440px;
-	width: 100%;
-	position: unset;
+	top:0px;
+	width: 97%;
+	position: sticky;
 	left: 0;
 	margin-left: 0;
+	display: flex;
+	margin: auto;
 }
 body .btn-success{
 	display: flex;
@@ -729,12 +734,12 @@ body .btn-success{
 }
 
 body .form-control{
-	width: 95%;
+	width: 100%;
 	margin: auto;
 }
 
 body .form-select{
-	width: 95%;
+	width: 100%;
 	margin: auto;
 }
 

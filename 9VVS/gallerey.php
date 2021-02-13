@@ -22,7 +22,7 @@
 			<img src="https://kpfu.ru/portal/docs/F_912422534/DSC_0060.JPG" alt="">
 			<div class="inform">
 				<p class="date">16 января 2020</p>
-				<a href="photos.html">Выпускники 9 Казанской спецшколы ВВС в гостях у лицея</a>
+				<a href="photos.php">Выпускники 9 Казанской спецшколы ВВС в гостях у лицея</a>
 			</div>
 
 
@@ -31,7 +31,7 @@
 			<img src="https://kpfu.ru/portal/docs/F359131146/DSC_0037.JPG" alt="">
 			<div class="inform">
 				<p class="date">16 января 2020</p>
-				<a href="photos.html">Выпускники 9 Казанской спецшколы ВВС в гостях у лицея </a>
+				<a href="photos.php">Выпускники 9 Казанской спецшколы ВВС в гостях у лицея </a>
 			</div>
 
 
@@ -42,7 +42,7 @@
 			<img src="https://kpfu.ru/portal/docs/F359131146/DSC_0037.JPG" alt="">
 			<div class="inform">
 				<p class="date">16 января 2020</p>
-				<a href="move.html">Выпускники 9 Казанской спецшколы ВВС в гостях у лицея </a>
+				<a href="move.php">Выпускники 9 Казанской спецшколы ВВС в гостях у лицея </a>
 			</div>
 
 
@@ -51,7 +51,7 @@
 			<img src="https://kpfu.ru/portal/docs/F_912422534/DSC_0060.JPG" alt="">
 			<div class="inform">
 				<p class="date">16 января 2020</p>
-				<a href="move.html">Выпускники 9 Казанской спецшколы ВВС в гостях у лицея </a>
+				<a href="move.php">Выпускники 9 Казанской спецшколы ВВС в гостях у лицея </a>
 			</div>
 
 

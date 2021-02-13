@@ -12,7 +12,7 @@
 	<script src="js/hist.js"></script>
 	<?php include("blocks/meta.php");?>
 </head>
-<body class="body">
+<body class="body" onload="myFunction1()" onscroll="colorBtn()">
 
 	<?php include("blocks/header.php");?>
 
@@ -22,10 +22,10 @@
 		
 			<div class="nav_page">
 				<button class="btn_nav_page" id="btn_page1" href="#" autofocus onclick="myFunction1()">Заголовок 1</button>
-				<button onclick="myFunction2()" class="btn_nav_page" id="btn_page2" href="#">Заголовок 2</button>
-				<button onclick="myFunction3()" class="btn_nav_page" id="btn_page3" href="#">Заголовок 3</button>
-				<button onclick="myFunction4()" class="btn_nav_page" id="btn_page4" href="#">Заголовок 4</button>
-				<button onclick="myFunction5()" class="btn_nav_page" id="btn_page5" href="#">Заголовок 5</button>
+				<button onclick="myFunction2() " class="btn_nav_page" id="btn_page2" href="#">Заголовок 2</button>
+				<button onclick="myFunction3() " class="btn_nav_page" id="btn_page3" href="#">Заголовок 3</button>
+				<button onclick="myFunction4() " class="btn_nav_page" id="btn_page4" href="#">Заголовок 4</button>
+				<button onclick="myFunction5() " class="btn_nav_page" id="btn_page5" href="#">Заголовок 5</button>
 			</div>
 
 			<div class="text__hist">
